@@ -1,7 +1,3 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
-
 public class Professors extends Users{
 
 	private int professorAFM,salary;

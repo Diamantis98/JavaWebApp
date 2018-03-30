@@ -1,11 +1,16 @@
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 
 
 public class Students extends Users{
 	
+    static 	List<Students> s = new ArrayList<Students>();
+	
 	private final int registrationNumber;
+	private Scanner read;
 	
 	public Students(String username, String name, String surname, String dept, int regNum) {
 		super(username, name, surname, dept);
@@ -14,9 +19,7 @@ public class Students extends Users{
 	}
 	
 	private int getValue(){
-		Scanner read = new Scanner(System.in);
-		//int x=0;
-		//String b = "";
+		read = new Scanner(System.in);
 
 		try{
 			return read.nextInt();

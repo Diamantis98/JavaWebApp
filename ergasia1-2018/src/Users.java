@@ -9,6 +9,7 @@ public class Users {
 	 */
 	private String username,name,surname,department;
 	private static int counter=0;
+	private Scanner input;
 	
 	public Users (String username,String name,String surname,String dept){
 		this.username =username;
@@ -34,7 +35,7 @@ public class Users {
 		counter +=1;
 	}
 	public String setString(){
-		Scanner input = new Scanner(System.in);	
+		input = new Scanner(System.in);	
 		try{
 			return input.nextLine();
 		}
