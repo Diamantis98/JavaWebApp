@@ -20,6 +20,7 @@ public class Secretaries extends Users{
 	}
 	
 	
+	//Import Students from file "input.txt" .
 	public static void ReadStudents(int i) {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader("src/input.txt")); 

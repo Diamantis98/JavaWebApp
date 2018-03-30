@@ -1,7 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-
 public class Users {
 
 	/**
@@ -34,6 +33,8 @@ public class Users {
 		this.department = setString();	
 		counter +=1;
 	}
+	
+	//reading Users attributes from console.
 	public String setString(){
 		input = new Scanner(System.in);	
 		try{
@@ -77,9 +78,8 @@ public class Users {
 		this.department =set;
 	}
 	
+	// Return User informations
 	public String getUserInfo(){
 		return getName()+" "+ getSurname()+" "+getDepartment();
 	}
-	
-
 }

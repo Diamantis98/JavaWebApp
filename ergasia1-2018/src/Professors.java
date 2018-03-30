@@ -1,8 +1,8 @@
+
 public class Professors extends Users{
 
 	private int professorAFM,salary;
 	private Courses course;
-	
 	
 	public Professors(String username, String name, String surname, String dept,int AFM , int salary) {
 		super(username, name, surname, dept);

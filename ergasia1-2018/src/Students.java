@@ -3,10 +3,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-
-
 public class Students extends Users{
-	
+	//list of students
     static 	List<Students> s = new ArrayList<Students>();
 	
 	private final int registrationNumber;
@@ -17,7 +15,14 @@ public class Students extends Users{
 		registrationNumber=regNum;
 		System.out.println("New Student created!" );
 	}
-	
+	//Alternative constructor for Students
+	public Students(){
+		super() ;
+		System.out.println("Students Registration Number (integer):");
+		registrationNumber = getValue();
+		System.out.println("New Student created!" );
+	}
+	//Reading-Checking Students registration number.
 	private int getValue(){
 		read = new Scanner(System.in);
 
@@ -30,12 +35,6 @@ public class Students extends Users{
 		}
 	}
 	
-	public Students(){
-		super() ;
-		System.out.println("Students Registration Number (integer):");
-		registrationNumber = getValue();
-		System.out.println("New Student created!" );
-	}
 
 	public int getRegistrationNumber() {
 		return registrationNumber;
