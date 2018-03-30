@@ -18,7 +18,6 @@ public class CreateUsers {
 
 		Secretaries sec = new Secretaries("secUser", "secName", "secSurname", "informatics", 100);
 		System.out.println(sec.getSecretaryInfo());
-
 		
 		Scanner input= new Scanner(System.in);
 //		System.out.println("Give new name:");
