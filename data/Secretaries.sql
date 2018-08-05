@@ -1,0 +1,10 @@
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (1, 'Sapphira', 'Berisford', 1373, 'sberisford0', '748a09e4d3350dc1ec310e7b5225f602626b5c6b', '8939f944b5beb95fcee5e01843bbffa6');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (2, 'Sutton', 'Wittier', 1371, 'swittier1', '7dc9d6f5a4b947f897682dd5d8d5c040434237c3', 'ad42624809a8023cda5e6d7c1c221d1e');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (3, 'Turner', 'Peres', 1724, 'tperes2', 'cab511c732245bb753ed8f09cda06b5290c5c198', 'df16148bca4af34261bbba889d8591e0');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (4, 'Dana', 'Hawker', 1122, 'dhawker3', '054f802d3f93b66e00cd92baf1cf0557eae01fce', '325e436d3be9f234671908dc6686179b');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (5, 'Angelita', 'D'' Angelo', 1282, 'adangelo4', '35959fa8ee7fea7ca34a6797d78a4feda0584aec', '454538f6d36f3617b41fac9d6b29f977');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (6, 'Pam', 'Dooney', 1321, 'pdooney5', '9ed4913829bead61cffc8754d59c09de6ffc9b87', '9b9a6db7149bd7b959aa97000124b872');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (7, 'Mella', 'Ridgley', 1081, 'mridgley6', 'd5651dcef095e33eb33302e711e0b38e09ea6f21', 'ebe43d46bfc96f10eece4143e98ef478');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (8, 'Valle', 'Fautley', 1927, 'vfautley7', '30a33bce628b5bb6c17baefb02c2779d71c983e4', 'b86d4df9ca80d3efaa3219b8c32ba96e');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (9, 'Tyrus', 'Pendlington', 727, 'tpendlington8', 'f3b537b2ea109e191fc908a6416df68804ff63b9', 'e42d8784ab691e80d174ef3e336b762d');
+insert into Secretaries (secid, name, surname, salary, username, salt, password) values (10, 'Lauren', 'Tejero', 1975, 'ltejero9', '667fb5c9854e1caa2de3f6005546e74af0c423c9', 'aa2266015d2fbed2d0c2001b0e742248');
